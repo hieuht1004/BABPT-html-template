@@ -1,0 +1,119 @@
+/*
+  RESET CSS
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: serif;
+  font-size: 14px;
+  padding: 24px;
+}
+input {
+  outline: none;
+  font-family: inherit;
+  font-size: 1em;
+  max-width: 100%;
+}
+.inputdot {
+  border: none;
+  border-bottom: 1px dotted;
+  height: 18px;
+}
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+}
+.stack {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+.flex1 {
+  flex: 1;
+}
+.blockcell {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 8px;
+  padding: 4px;
+  border: 1px solid;
+
+}
+
+/*
+  PAGE 1
+*/
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.hcenter {
+  align-items: center;
+}
+.hright {
+  display: flex;
+  align-items: flex-end;
+}
+.forminputtext {
+  display: flex;
+  align-items: flex-end;
+}
+.forminputtext label {
+  line-height: 12px;
+}
+.forminputcheckbox {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.cellcheckbox {
+  display: flex;
+  column-gap: 24px;
+  height: 18px;
+}
+.cellcheckbox span {
+  line-height: 18px;
+}
+.mainsection {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 8px;
+}
+.cellinline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.titlesection {
+  text-transform: uppercase;
+  padding: 12px 0 4px 0;
+}
+.footer {
+  padding-top: 24px;
+}
+.ftop {
+  display: flex;
+  justify-content: flex-end;
+}
+.ftop .forminputtext label {
+  font-style: italic;
+}
+.fbot {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  padding-top: 24px;
+}
+.sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+    
+
+
